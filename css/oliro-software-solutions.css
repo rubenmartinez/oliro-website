@@ -4039,55 +4039,55 @@ a {
 @font-face {
   font-family: 'Poppins';
   src: url('../fonts/Poppins-Thin.ttf') format('truetype');
-  font-weight: 100; /* Corresponds to Visbycf Thin */
+  font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
   src: url('../fonts/Poppins-Light.ttf') format('truetype');
-  font-weight: 300; /* Corresponds to Visbycf Light */
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Medium.ttf') format('truetype'); /* Poppins Medium is 500. Use for Visbycf Regular (400) */
+  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Medium.ttf') format('truetype'); /* Use for Visbycf Medium (500) */
+  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Medium.ttf') format('truetype'); /* Use for Visbycf DemiBold (600). Poppins Medium (500) is closest. */
+  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Bold.ttf') format('truetype'); /* Poppins Bold is 700. Use for Visbycf Bold (700). */
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype'); /* Poppins ExtraBold is 800. Use for Visbycf ExtraBold (was 700 but used VisbyCF-ExtraBold file) */
+  src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype'); /* Use for Visbycf Heavy (900). Poppins ExtraBold (800) is closest normal. */
+  src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
