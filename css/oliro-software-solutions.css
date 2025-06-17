@@ -80,7 +80,7 @@ h1 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
-  font-size: 56px;
+  font-size: 52px;
   font-weight: 700;
   line-height: 56px;
 }
@@ -91,7 +91,7 @@ h2 {
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
   font-size: 32px;
-  font-weight: 800; /* Adjusted for VisbyCF ExtraBold equivalent */
+  font-weight: 600;
   line-height: 36px;
 }
 
@@ -311,12 +311,12 @@ a {
 }
 
 .heading.h1 {
-  font-size: 40px;
+  font-size: 38px;
   line-height: 40px;
 }
 
 .heading.h1.termstitle {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .button {
@@ -501,7 +501,7 @@ a {
   color: #fff;
   margin-left: 0;
   font-family: Poppins, sans-serif;
-  font-weight: 600; /* Added for VisbyCF DemiBold equivalent */
+  font-weight: 600;
 }
 
 .heading-3.tecnolog-as {
@@ -1065,7 +1065,7 @@ a {
 
 .field-label {
   font-family: Poppins, sans-serif;
-  font-weight: 800; /* Adjusted for VisbyCF ExtraBold equivalent */
+  font-weight: 600;
   position: static;
 }
 
@@ -1078,7 +1078,7 @@ a {
 
 .heading-5 {
   font-family: Poppins, sans-serif;
-  font-weight: 400; /* For VisbyCF Regular equivalent */
+  font-weight: 400;
 }
 
 .icono {
@@ -1161,7 +1161,7 @@ a {
   color: #fff;
   font-family: Poppins, sans-serif;
   font-size: 28px;
-  font-weight: 700; /* Ensured weight for Bold */
+  font-weight: 600;
   line-height: 48px;
 }
 
@@ -1173,7 +1173,7 @@ a {
 .text-span-2 {
   color: var(--magenta);
   font-family: Poppins, sans-serif;
-  font-weight: 900; /* For VisbyCF Heavy equivalent */
+  font-weight: 900;
 }
 
 .container-3 {
@@ -1488,7 +1488,7 @@ a {
   color: #fff;
   margin-left: 0;
   font-family: Poppins, sans-serif;
-  font-weight: 600; /* Added for VisbyCF DemiBold equivalent */
+  font-weight: 600;
 }
 
 .button-4 {
@@ -1654,7 +1654,7 @@ a {
   }
 
   .heading.h1 {
-    font-size: 48px;
+    font-size: 44px;
     line-height: 56px;
   }
 
@@ -1816,7 +1816,7 @@ a {
   }
 
   .heading.h1 {
-    font-size: 56px;
+    font-size: 52px;
     line-height: 56px;
   }
 
@@ -2179,7 +2179,7 @@ a {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding-right: 48px;
-    font-family: Visbycf Bold, sans-serif;
+    font-family: Poppings, sans-serif;
     font-size: 18px;
     font-weight: 700;
   }
@@ -2315,7 +2315,7 @@ a {
   }
 
   .heading.h1 {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 32px;
   }
 
@@ -4036,6 +4036,7 @@ a {
   font-style: italic;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Poppins';
   src: url('../fonts/Poppins-Thin.ttf') format('truetype');
@@ -4045,6 +4046,14 @@ a {
 }
 @font-face {
   font-family: 'Poppins';
+  src: url('../fonts/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
   src: url('../fonts/Poppins-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
@@ -4052,7 +4061,7 @@ a {
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -4066,7 +4075,7 @@ a {
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+  src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -4087,7 +4096,7 @@ a {
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
+  src: url('../fonts/Poppins-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
