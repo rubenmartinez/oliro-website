@@ -24,7 +24,7 @@ jobs:
           username: ${{ secrets.DEPLOY_PROD_FTP_USER || 'public_html@oliro.es' }}
           password: ${{ secrets.DEPLOY_PROD_FTP_PASSWORD }}
           port: ${{ secrets.DEPLOY_PROD_FTP_PORT }}
-          protocol: ${{ secrets.DEPLOY_PROD_FTP_PROTOCOL || 'ftps-legacy' }}
+          protocol: ${{ secrets.DEPLOY_PROD_FTP_PROTOCOL || 'ftps' }}
           local-dir: web/
           server-dir: ./
           dangerous-clean-slate: false
