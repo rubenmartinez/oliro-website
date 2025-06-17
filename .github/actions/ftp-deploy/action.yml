@@ -1,0 +1,60 @@
+name: FTP Deploy
+description: 'Deploys a local directory to a ftp server'
+inputs:
+  server:
+    description: 'Ftp Server'
+    required: true
+  username:
+    description: 'Ftp User'
+    required: false
+    default: 'ftp'
+  password:
+    description: 'Ftp Password'
+    required: false
+    default: 'ftp'
+  port:
+    description: 'Ftp Port'
+    required: false
+    default: 22
+  protocol:
+    description: 'Ftp Protocol - ftp, ftps, or ftps-legacy'
+    required: false
+    default: ftp
+  local-dir:
+    description: 'Folder to upload from, must end with trailing slash /'
+    required: true
+  server-dir:
+    description: 'Folder to upload to, must end with trailing slash /'
+    required: false
+    default: ./
+  dangerous-clean-slate:
+    description: 'Deletes ALL contents of server-dir, even items in excluded with exclude argument'
+    required: false
+    default: false
+
+runs:
+  using: 'composite'
+  steps:
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@8a24039354ee91000cb948cb4a1dbdf1a1b94a3c
+      #uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        port: ${{ inputs.port }}
+        protocol: ${{ inputs.protocol }}
+        # Folder to upload from, must end with trailing slash /
+        local-dir: ${{ inputs.local-dir }}
+        server-dir: ${{ inputs.server-dir }}
+        dangerous-clean-slate: ${{ inputs.dangerous-clean-slate }}
+        log-level: verbose
+        # Path and name of the state file - this file is used to track which files have been deployed
+        #state-name: # optional
+        # Prints which modifications will be made with current config options, but doesnt actually make any changes
+        #dry-run: # optional
+        # An array of glob patterns, these files will not be included in the publish/delete process
+        #exclude: # optional
+        # How verbose should the information be - minimal, standard, or verbose
+        # strict or loose
+        # security: # optional
