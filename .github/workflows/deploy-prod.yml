@@ -25,6 +25,6 @@ jobs:
           password: ${{ secrets.DEPLOY_PROD_FTP_PASSWORD }}
           port: ${{ secrets.DEPLOY_PROD_FTP_PORT }}
           protocol: ${{ secrets.DEPLOY_PROD_FTP_PROTOCOL }}
-          local-dir: react-build/
+          local-dir: web/
           server-dir: ./
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
