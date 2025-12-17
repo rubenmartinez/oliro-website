@@ -1,4 +1,11 @@
+# Node
 node_modules/
 
+# IDE
+*.iml
+.idea
+
+# AI
+CLAUDE.MD
 .aider*
 .auto-changelog
